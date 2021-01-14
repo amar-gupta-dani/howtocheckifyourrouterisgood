@@ -55,7 +55,7 @@ def main():
 if __name__=="__main__":
     main()
 ``` 
-Here I specify the IP addresses and MAC addresses. You could automate this part, but if you have something like nmap or a network scanner (you can code this as well) you can find the addresses and manual code them in. Then we send the packets, we have to do this repeatedly so the victim thinks we're the router. If you want to turn it off, you can use Ctrl+C and it'll revert it. 
+Here I specify the IP addresses and MAC addresses. You could automate this part, but if you have something like nmap or a network scanner (you can code this as well) you can find the addresses and manually code them in. Then we send the packets, we have to do this repeatedly so the victim thinks we're the router. If you want to turn it off, you can use Ctrl+C and it'll revert it. 
 
 -------------------------------------------------------------------------------
 
