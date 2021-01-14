@@ -71,7 +71,7 @@ I was enlightened with the knowledge of this random stackoverflow dude
 >
 >Arpspoof works through a switch because the switch has no way of knowing which port the legitimate IP address/MAC mapping is, so without any form of port >security/DHCP snooping/Dynamic arp inspection, it has to trust that a device is who it says it is when it claims "192.168.1.1 is at aa:bb:cc:dd:ee:aa" in its >arp reply/gratuitous arp.
 >
->        ~Some dude on Stack Overflow
+>~Some dude on Stack Overflow
 
 What this basically says is the router is being skeptical. ARP Spoofing depends a lot on the router trusting the hacker's computer. The switch is doing what we want it to do, but the router is detecting something fishy from the hacker's computer. 
 
