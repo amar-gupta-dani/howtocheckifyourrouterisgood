@@ -70,6 +70,7 @@ I was enlightened with the knowledge of this random stackoverflow dude
 >The spoof should work almost immediately if it is working properly. New devices will see the gratuitous arp from the attacker and automatically update their >cache. A victim will not detect duplicate IP, they should just update the mapping. The problem is likely at the router.
 >
 >Arpspoof works through a switch because the switch has no way of knowing which port the legitimate IP address/MAC mapping is, so without any form of port >security/DHCP snooping/Dynamic arp inspection, it has to trust that a device is who it says it is when it claims "192.168.1.1 is at aa:bb:cc:dd:ee:aa" in its >arp reply/gratuitous arp.
+>
 >                                                                                                                      ~Some dude on Stack Overflow
 
 What this basically says is...
