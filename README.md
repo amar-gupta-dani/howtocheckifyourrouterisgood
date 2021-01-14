@@ -73,7 +73,24 @@ I was enlightened with the knowledge of this random stackoverflow dude
 >
 >~Some dude on Stack Overflow
 
-What this basically says is the router is being skeptical. ARP Spoofing depends a lot on the router trusting the hacker's computer. The switch is doing what we want it to do, but the router is detecting something fishy from the hacker's computer. 
+What this basically says is the router is being skeptical. ARP Spoofing depends a lot on the router trusting the hacker's computer. The switch is doing what we want it to do, but the router is detecting something fishy from the hacker's computer.
+
+-------------------------------------------------------------------------------
+
+## How to protect yourself from ARP Spoofers
+
+I hope I demostrated how easy it is to do such a thing. I lucked out when the router stopped the spoofer. Here are some tips to protect yourself
+
+1. Setup a packet filter
+    * This is a great way to prevent "posioned" packets from reaching your computer
+2. Use Malware Detection Tools 
+    * These can indicate that someone is trying to get into your machine
+3. Use an ARP Detection Tool
+    * Similar to the last one, these tools can be more focused on ARP. However downloading a tool for each vulnerability can add up. 
+4. Avoid Trust Relationships
+    * You should disable trust relationships. These are connections that automatically connect themselves. Trust is a huge part of ARP Spoofing and this is akin    to going for the head. Use password or some sort of authenication as works to do this. 
+5. Use Static ARP 
+    * If you have two machines that communicate often (ex. You and your router), try setting up a Static ARP cache. This connection can't be changed without your knowledge. This along with #4 is a great way to protect yourself.
 
 -------------------------------------------------------------------------------
 
@@ -87,3 +104,4 @@ What this basically says is the router is being skeptical. ARP Spoofing depends 
  4. A bunch of command line stuff, I learned more about command line and different ways to troubleshoot using terminal.
  5. Scapy, I used the library scapy to create packages. 
  6. A lot about networks, permissions, and many other things. 
+ 
