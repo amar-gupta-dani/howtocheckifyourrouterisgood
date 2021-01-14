@@ -71,6 +71,19 @@ I was enlightened with the knowledge of this random stackoverflow dude
 >
 >Arpspoof works through a switch because the switch has no way of knowing which port the legitimate IP address/MAC mapping is, so without any form of port >security/DHCP snooping/Dynamic arp inspection, it has to trust that a device is who it says it is when it claims "192.168.1.1 is at aa:bb:cc:dd:ee:aa" in its >arp reply/gratuitous arp.
 >
->                                                                                                                      ~Some dude on Stack Overflow
+>                                                                                                     ~Some dude on Stack Overflow
 
-What this basically says is...
+What this basically says is the router is being skeptical. ARP Spoofing depends a lot on the router trusting the hacker's computer. The switch is doing what we want it to do, but the router is detecting something fishy from the hacker's computer. 
+
+-------------------------------------------------------------------------------
+
+## What I learned
+
+ I must the router screwing up everything led to me learning a lot more than what I would've. 
+ 
+ 1. ARP Spoofing, I learned what ARP Spoofing is and how to do it.
+ 2. nmap and netstat, I used these programs to find IP and MAC addresses.
+ 3. MacPorts, Port forwarding, IP forwarding, I had to enable these to get it to work.
+ 4. A bunch of command line stuff, I learned more about command line and different ways to troubleshoot using terminal.
+ 5. Scapy, I used the library scapy to create packages. 
+ 6. A lot about networks, permissions, and many other things. 
