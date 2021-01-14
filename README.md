@@ -65,7 +65,7 @@ I wasn't initially planning on making this section, but we got a new router and 
 
 ![Literally Me](https://pbs.twimg.com/media/EIzT11bU8AAgvlM.jpg)
 
-I was enlightenment with the knowledge of this random stackoverflow dude
+I was enlightened with the knowledge of this random stackoverflow dude
 
 >The spoof should work almost immediately if it is working properly. New devices will see the gratuitous arp from the attacker and automatically update their >cache. A victim will not detect duplicate IP, they should just update the mapping. The problem is likely at the router.
 >
