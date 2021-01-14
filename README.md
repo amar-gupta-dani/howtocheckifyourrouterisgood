@@ -61,7 +61,7 @@ Here I specify the IP addresses and MAC addresses. You could automate this part,
 
 ## Why it may not work for you
 
-I wasn't initially planning on making this section, but we got a new router and the spoofer doesn't wor anymore. This is actually a good thing, but not for this project. I started doing research to figure out what happened,
+I wasn't initially planning on making this section, but we got a new router and the spoofer doesn't work anymore. This is actually a good thing, but not for this project. I started doing research to figure out what happened,
 
 ![Literally Me](https://pbs.twimg.com/media/EIzT11bU8AAgvlM.jpg)
 
